@@ -75,19 +75,19 @@ public class MainActivity extends AppCompatActivity {
         });
         final Handler handler = new Handler();
 
-        Runnable runnable = new Runnable() {
-            @Override
-            public void run() {
-                timeRemaining -= 1000;
-                mTvTime.setText(timeRemaining + "");
-
-                if (timeRemaining > 0) {
-                    handler.postDelayed(this, 1000);
-                }
-            }
-        };
-
-        handler.postDelayed(runnable, 1000);
+//        Runnable runnable = new Runnable() {
+//            @Override
+//            public void run() {
+//                timeRemaining -= 1000;
+//                mTvTime.setText(timeRemaining + "");
+//
+//                if (timeRemaining > 0) {
+//                    handler.postDelayed(this, 1000);
+//                }
+//            }
+//        };
+//
+//        handler.postDelayed(runnable, 1000);
     }
 
 
